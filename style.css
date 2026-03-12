@@ -1,0 +1,158 @@
+            body {
+                font-family: Arial, sans-serif;
+                background-color: #f0f0f0;
+            }
+            h1 {
+                color:darkblue;text-align : center;
+            }
+            p {
+                color:#333;
+            }
+            div {
+                background-color: white;
+                padding: 15px;
+                margin: 15px;
+                border-radius: 8px;
+                border : 1px solid gray;
+            }
+            div :hover {
+                transform: scale(1.02);
+            }
+            ul {
+                background-color:white;
+                padding: 15px;
+                margin: 15px;
+                border-radius: 8px;
+            }
+            li {
+                margin:5px 0;
+            }
+            a {
+                color : blue;
+                text-decoration: none;
+            }
+            a:hover {
+                color:red;
+            }
+        img {
+            display:block;
+            margin: 20px auto;
+            border-radius: 10px;
+        }
+        .header {
+            background-color: darkblue;
+            color: white;
+            text-align: center;
+            padding: 15px;
+            margin-bottom: 20px;
+        }
+        .footer {
+            background-color:darkblue;
+            color:white;
+            text-align: center;
+            padding:10px;
+            margin-top: 20px;
+        }
+        .nav {
+            background-color:#333;
+            text-align: center;
+            padding: 10px;
+            margin-bottom: 20px;
+        }
+        .nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 10px;
+        }
+        .nav a:hover {
+            color: yellow;
+            text-decoration: underline;
+        }
+        button {
+            background-color: darkblue;
+            color:white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            display: block;
+            margin: 20px auto;
+            cursor: pointer;
+        }
+        button:hover {
+            background-color: blue;
+        }
+        @media (max-width: 600px){
+            body {
+                font-size:14px;
+            }
+            div{
+                margin: 10px;
+                padding: 10px;
+            }
+            img {
+                width: 100%;
+            }
+        }
+        .animal-images {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+        }
+        .animal-images img:hover {
+            transform: scale(1.1);
+        }
+        .animal {
+            text-align: center;
+            background-color: white;
+            padding: 10px;
+            border: 1px solid gray;
+            border-radius: 8px;
+            transition: transform 0.3s;
+        }
+        .animal:hover {
+            transform: scale(1.05);
+        }
+        .projects {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            flex-wrap:wrap;
+        }
+        .project {
+            background-color: white;    
+            border: 1px solid gray;
+            border-radius: 8px;
+            padding: 15px;
+            width: 250px;
+            text-align: center;
+            transition: transform 0.3s;
+            .project img {
+                margin-bottom: 10px;
+            }
+        }
+        .project:hover {
+            transform: scale(1.05);
+        }
+        form {
+            background-color: white;
+            padding: 15px;
+            border: 1px solid gray;
+            border-radius: 8px;
+            width: 300px;
+            margin: 20px auto;
+        }
+        input, textarea {
+            width: 100%;
+            padding: 8px;
+            margin-top: 5px;
+        }
+        .intro {
+            text-align: center;
+            font-style: italic;
+        }
+        .top-button {
+            display:block;
+            text-align: center;
+            margin:20px;
+        }
+    
